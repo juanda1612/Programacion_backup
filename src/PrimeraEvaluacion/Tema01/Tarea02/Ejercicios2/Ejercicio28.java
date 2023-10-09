@@ -12,7 +12,7 @@ public class Ejercicio28 {
         int num1 = teclado.nextInt();
         int num2 = teclado.nextInt();
         int num3 = teclado.nextInt();
-        boolean valor = (num1 >= num2 && num1 <= num3);
+        boolean valor = (num1 >= num2) && (num1 <= num3) || (num1 <= num2) && (num1 >= num3);
         System.out.println("El primer numero esta entre el segundo y tercer numero: " + valor);
     }
 }

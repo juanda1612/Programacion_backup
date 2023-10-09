@@ -15,7 +15,7 @@ public class Ejercicio30 {
         System.out.println("Ingresa el valor del numero c");
         int c = teclado.nextInt();
 
-        boolean suma = (a + b == 20) || (b + c == 20) || (a + c == 20);
-        System.out.println(suma);
+        boolean resultado = (a + b == 20) || (b + c == 20) || (a + c == 20);
+        System.out.println(resultado);
     }
 }
