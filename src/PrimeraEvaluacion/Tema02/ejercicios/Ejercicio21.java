@@ -20,10 +20,10 @@ public class Ejercicio21 {
         }
 
  */
-        int mayor = a;
-        int menor = a;
+        int mayor ;
+        int menor ;
 
-        if (mayor < b){
+        if (a < b){
             menor = a;
             mayor = b;
         }else {
@@ -35,5 +35,8 @@ public class Ejercicio21 {
             suma = suma + i;
             System.out.println(i + " " + suma);
         }
+
+
+
     }
 }
