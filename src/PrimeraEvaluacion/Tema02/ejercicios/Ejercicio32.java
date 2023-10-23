@@ -8,7 +8,7 @@ import java.util.Scanner;
 public class Ejercicio32 {
     public static void main(String[] args) {
         Scanner teclado = new Scanner(System.in);
-        while (true) {
+        /*while (true) {
             System.out.println("Introduce un numero entre 1 y 100");
             int n = teclado.nextInt();
             if (n >= 1 && n <= 100){
@@ -18,5 +18,8 @@ public class Ejercicio32 {
                 System.out.println("Error");
             }
         }
+
+         */
+
     }
 }

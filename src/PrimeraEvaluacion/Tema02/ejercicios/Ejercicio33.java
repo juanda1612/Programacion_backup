@@ -8,6 +8,7 @@ import java.util.Scanner;
 public class Ejercicio33 {
     public static void main(String[] args) {
         Scanner teclado = new Scanner(System.in);
+        //YO
         int n = 0;
         int contador = 0;
         while (true){
@@ -15,11 +16,25 @@ public class Ejercicio33 {
             contador++;
             if (n == 0){
                 contador--;
-                System.out.println(contador + " ");
+                System.out.println(contador);
                 break;
             }
 
         }
 
+
+        /*
+        //Profe
+        int numero = teclado.nextInt();
+        int contador = 0;
+        while (numero != 0){
+            contador++;
+            numero= teclado.nextInt();
+        }
+        System.out.println(contador);
+
+         */
     }
+
+
 }
