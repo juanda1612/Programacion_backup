@@ -13,9 +13,9 @@ public class Ejercicio06 {
         int num2 = teclado.nextInt();
         int num3 = teclado.nextInt();
 
-        int numeroMayor = num1;
-        int numeroMedio = num1;
-        int numeroPeque = num1;
+        int numeroMayor;
+        int numeroMedio;
+        int numeroPeque;
 
         if (num1 >= num2 && num1 >= num3){
             numeroMayor = num1;
@@ -45,12 +45,7 @@ public class Ejercicio06 {
                 numeroPeque = num1;
             }
         }
-
-
         System.out.println( numeroPeque + " ," + numeroMedio + ", " + numeroMayor );
-
-
-
         }
     }
 

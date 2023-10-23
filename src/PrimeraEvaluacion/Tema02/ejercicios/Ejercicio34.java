@@ -5,13 +5,13 @@ Escribe un programa que pida números hasta que se introduzca un cero. Debe impr
 
 import java.util.Scanner;
 
-public class ejercicio34 {
+public class Ejercicio34 {
     public static void main(String[] args) {
         Scanner teclado = new Scanner(System.in);
         //YO
         /*
         int suma = 0;
-        int media = 0;
+        double media = 0;
         while (true){
            int n = teclado.nextInt();
             suma = suma + n;

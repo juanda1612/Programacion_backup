@@ -25,14 +25,29 @@ public class Ejercicio35 {
 
          */
         //CLASE
-        int n = teclado.nextInt();
-        int numeroMayor = 0;
+        /*int n = teclado.nextInt();
+        int numeroMayor = n;
         while (n != 0){
             n = teclado.nextInt();
-            if (numeroMayor < n){
+            if (numeroMayor < n && n != 0){
                 numeroMayor = n;
             }
         }
         System.out.println(numeroMayor);
+
+         */
+        //DO WHILE
+        int n = teclado.nextInt();
+        int numeroMayor = n;
+            do {
+                if (n != 0) {
+                    n = teclado.nextInt();
+                }
+                if (numeroMayor < n && n != 0) { //metemos el n != 0 por si metemos todos los numeros negativos
+                    numeroMayor = n;
+                }
+            } while (n != 0);
+            System.out.println(numeroMayor);
+        }
     }
-}
+
