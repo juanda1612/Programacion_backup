@@ -6,5 +6,14 @@ Escribe un programa que, dados dos números, uno real (base) y un entero positiv
 import java.util.Scanner;
 
 public class Ejercicio29 {
-    Scanner teclado = new Scanner(System.in);
+    public static void main(String[] args) {
+        Scanner teclado = new Scanner(System.in);
+        double base = teclado.nextDouble();
+        int exponente = teclado.nextInt();
+        double total = 1;
+        for (int i = 0; i < exponente; i++) {
+            total = total * base;
+        }
+        System.out.println(total);
+    }
 }

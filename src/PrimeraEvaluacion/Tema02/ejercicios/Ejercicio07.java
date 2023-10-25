@@ -12,6 +12,8 @@ import java.util.Scanner;
 
 public class Ejercicio07 {
     public static void main(String[] args) {
+        //ANTIGUA
+        /*
         Scanner teclado = new Scanner(System.in);
         System.out.println("Cuantas tazas de mantequilla de cacahuete hay");
         int mantequilla = teclado.nextInt();
@@ -29,5 +31,23 @@ public class Ejercicio07 {
             System.out.println("Tiene exito: " + exito);
         }
 
+         */
+        //NUEVA
+        Scanner teclado = new Scanner(System.in);
+        System.out.println("Cuantas tazas de mantequilla de cacahuete hay");
+        int mantequilla = teclado.nextInt();
+        System.out.println("Es fin de semana? true/false");
+        boolean dia = teclado.nextBoolean();
+        boolean exito;
+        if (mantequilla >= 10 && mantequilla <= 20 && dia == false){
+            exito = true;
+            System.out.println("Tiene exito: " + exito);
+        }else if (mantequilla >= 15 && mantequilla <= 25 && dia == true){
+            exito = true;
+            System.out.println("Tiene exito: " + exito);
+        }else {
+            exito = false;
+            System.out.println("Tiene exito: " + exito);
+        }
     }
 }

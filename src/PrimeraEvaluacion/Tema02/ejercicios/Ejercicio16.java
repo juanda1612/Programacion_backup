@@ -11,7 +11,7 @@ public class Ejercicio16 {
         System.out.println("Introduce dos numeros");
         int num1 = teclado.nextInt();
         int num2 = teclado.nextInt();
-        System.out.println("Introduce la operacion: 1= + // 4= /");
+        System.out.println("Introduce la operacion: 1 = + | 2 = - | 3 = * | 4 = /");
         int operacion = teclado.nextInt();
         int resultado;
         switch (operacion){
