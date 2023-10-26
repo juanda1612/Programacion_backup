@@ -8,25 +8,24 @@ import java.util.Scanner;
 public class Ejercicio39 {
     public static void main(String[] args) {
         Scanner teclado = new Scanner(System.in);
-        System.out.println("Introduce un numero para iniciar");
         while (true){
             int n = teclado.nextInt();
             System.out.println("(1)Configuracion");
             System.out.println("(2)Salir");
-            switch (n){
-                case 1:
-                    int n2 = teclado.nextInt();
-                    System.out.println("Graficos");
-                    System.out.println("Controles");
-                    System.out.println("Sonido");
-                    System.out.println("(1)Atras");
-                    switch (n2){
-                        case 1:
+
+                switch (n) {
+                    case 1:
+                        n = teclado.nextInt();
+                        System.out.println("Graficos");
+                        System.out.println("(1)Atras");
+                        if (n == 1) {
                             break;
-                    }
-                case 2:
-                    break;
-            }
+                        }
+                    case 2:
+                        break;
+                }
+
         }
+
     }
 }
