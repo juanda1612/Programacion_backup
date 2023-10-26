@@ -27,12 +27,14 @@ public class Ejercicio01 {
         int columna = teclado.nextInt();
         int fila = teclado.nextInt();
         for (int i = 0; i < columna; i++) {
-            System.out.print("1");
             for (int j = 0; j < fila; j++) {
-                if (columna == 0) {
+                if (i == 0 || i == columna - 1 || j == 0 || j == fila - 1) {
+                    System.out.print("1");
+                }else {
+                    System.out.print("0");
                 }
-                System.out.println();
             }
+            System.out.println();
         }
     }
 }
