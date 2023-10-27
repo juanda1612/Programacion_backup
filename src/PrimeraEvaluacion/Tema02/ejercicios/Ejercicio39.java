@@ -8,24 +8,23 @@ import java.util.Scanner;
 public class Ejercicio39 {
     public static void main(String[] args) {
         Scanner teclado = new Scanner(System.in);
-        while (true){
-            int n = teclado.nextInt();
+        int n2;
+        int n;
+        do {
+            System.out.println("Menu:");
             System.out.println("(1)Configuracion");
             System.out.println("(2)Salir");
-
-                switch (n) {
-                    case 1:
-                        n = teclado.nextInt();
-                        System.out.println("Graficos");
-                        System.out.println("(1)Atras");
-                        if (n == 1) {
-                            break;
-                        }
-                    case 2:
-                        break;
-                }
-
-        }
-
+            n = teclado.nextInt();
+            switch (n) {
+                case 1:
+                    System.out.println("has elegido :CONFIGURACION");
+                    break;
+                case 2:
+                    System.out.println("Saliendo del sistema");
+                    break;
+                default:
+                    System.out.println("Introduce un numero valido");
+            }
+        }while (n != 2);
     }
 }
