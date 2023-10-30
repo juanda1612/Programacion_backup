@@ -8,7 +8,6 @@ import java.util.Scanner;
 public class Ejercicio39 {
     public static void main(String[] args) {
         Scanner teclado = new Scanner(System.in);
-        int n2;
         int n;
         do {
             System.out.println("Menu:");

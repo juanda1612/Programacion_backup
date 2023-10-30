@@ -23,24 +23,23 @@ public class Ejercicio10 {
         System.out.println("Introduce el precio del kilo");
         int precioKilo = teclado.nextInt();
         System.out.println("Introduce el numero de kilos");
-        int numeroKilos = teclado.nextInt();
+        double numeroKilos = teclado.nextInt();
         double total;
-        total = precioKilo * numeroKilos;
         if (ab.equals(a)){
             if (tamaño == 1){
-                total = total + 0.20;
-                System.out.println(total);
+                total = (precioKilo + 0.20) * numeroKilos;
+                System.out.printf("%.2f" , total);
             } else if (tamaño == 2) {
-                total = total + 0.30;
-                System.out.println(total);
+                total = (precioKilo + 0.30) * numeroKilos;
+                System.out.printf("%.2f" , total);
             }
         } else if (ab.equals(b)) {
             if (tamaño == 1){
-                total = total - 0.30;
-                System.out.println(total);
+                total = (precioKilo - 0.30) * numeroKilos;
+                System.out.printf("%.2f" ,total);
             } else if (tamaño == 2) {
-                total = total - 0.50;
-                System.out.println(total);
+                total = (precioKilo - 0.50) * numeroKilos;
+                System.out.printf("%.2f" , total);
             }
         }
     }

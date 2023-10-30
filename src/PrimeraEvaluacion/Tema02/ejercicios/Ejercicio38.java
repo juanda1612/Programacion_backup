@@ -8,6 +8,7 @@ Hacer un programa que pida caracteres e imprima ‘VOCAL’ si son vocales y ‘
 public class Ejercicio38 {
     public static void main(String[] args) {
         Scanner teclado = new Scanner(System.in);
+        /*
         System.out.println("Introduce un caracter");
         String vocal = teclado.nextLine();
         while (true){
@@ -30,5 +31,18 @@ public class Ejercicio38 {
         }
         System.out.println("terminado");
 
+         */
+
+        //CLASE
+        char n = teclado.nextLine().charAt(0);
+        while (n != ' '){
+            n = teclado.nextLine().charAt(0);
+            if (n == 'a' || n == 'e'|| n == 'i' || n == 'o'|| n == 'u'|| n == 'A' || n == 'E'|| n == 'I' || n == 'O'|| n == 'U'){
+                System.out.println("ES VOCAL");
+            }else {
+                System.out.println("ES CONSONANTE");
+            }
+        }
+        System.out.println("FIN");
     }
 }
