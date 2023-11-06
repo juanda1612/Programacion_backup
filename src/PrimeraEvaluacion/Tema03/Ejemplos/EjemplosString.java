@@ -103,6 +103,7 @@ public class EjemplosString {
 
         System.out.println(segunda1.equals(segunda2));//“segunda”.equals(“SEGUNDA”)->false
         System.out.println(segunda1.equalsIgnoreCase(segunda2)); // true
+        // sd
     }
 }
 
