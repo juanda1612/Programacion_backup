@@ -18,8 +18,6 @@ public class Ejercicio05 {
         // y los muestre ordenados de menor a mayor
         Arrays.sort(numeros);
         System.out.println(Arrays.toString(numeros));
-
-
         }
     }
 
