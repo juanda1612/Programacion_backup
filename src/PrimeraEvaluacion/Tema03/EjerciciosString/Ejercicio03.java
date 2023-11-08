@@ -1,4 +1,4 @@
-package PrimeraEvaluacion.Tema03.Ejercicios;
+package PrimeraEvaluacion.Tema03.EjerciciosString;
 /*
 Escribe un programa que lea una cadena de texto y reemplace todas las ocurrencias de la letra ‘a’ con la letra ‘b’. A continuación debe imprimir la cadena resultante.
  */

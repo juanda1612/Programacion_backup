@@ -1,4 +1,4 @@
-package PrimeraEvaluacion.Tema03.Ejercicios;
+package PrimeraEvaluacion.Tema03.EjerciciosString;
 /*
 Escribir por pantalla cada carácter de una cadena introducida por teclado.
  */

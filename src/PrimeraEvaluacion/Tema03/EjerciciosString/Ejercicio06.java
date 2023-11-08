@@ -1,4 +1,4 @@
-package PrimeraEvaluacion.Tema03.Ejercicios;
+package PrimeraEvaluacion.Tema03.EjerciciosString;
 /*
 Escribe un programa que lea dos cadenas y las compare sin tener en cuenta los espacios en blanco. El programa debería imprimir true si son iguales, false en caso contrario.
  */

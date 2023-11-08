@@ -1,4 +1,4 @@
-package PrimeraEvaluacion.Tema03.Ejercicios;
+package PrimeraEvaluacion.Tema03.EjerciciosString;
 /*
 Realizar un programa que compruebe si una cadena leída por teclado comienza por una subcadena introducida también por teclado.
  */

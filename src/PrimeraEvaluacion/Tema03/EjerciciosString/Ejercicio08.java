@@ -1,4 +1,4 @@
-package PrimeraEvaluacion.Tema03.Ejercicios;
+package PrimeraEvaluacion.Tema03.EjerciciosString;
 /*
 Escribe un programa que lea una cadena de texto que consista en un nombre y sus apellidos y a continuación muestre las iniciales en mayúsculas.
  */
