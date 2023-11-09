@@ -18,6 +18,12 @@ public class Ejercicio05 {
         // y los muestre ordenados de menor a mayor
         Arrays.sort(numeros);
         System.out.println(Arrays.toString(numeros));
+        //Ordenar al reves
+        int[] numerosInversos = new int[numeros.length];
+        for (int i = numeros.length -1; i >= 0; i--) {
+            numerosInversos[i] = numeros[numeros.length - 1 - i];
+        }
+        System.out.println(Arrays.toString(numerosInversos));
         }
     }
 
