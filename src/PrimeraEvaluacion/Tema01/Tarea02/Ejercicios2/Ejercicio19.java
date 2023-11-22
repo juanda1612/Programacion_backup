@@ -30,7 +30,6 @@ public class Ejercicio19 {
             System.out.printf("Introduce las notas de los modulos %d " , i);
             notasModulos = teclado.nextDouble();
             sumaNotas += notasModulos;
-
         }
         long notaFinal = Math.round(sumaNotas / modulos);
         System.out.println("La nota final es " + notaFinal);

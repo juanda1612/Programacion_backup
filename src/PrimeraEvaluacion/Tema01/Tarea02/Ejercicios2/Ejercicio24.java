@@ -26,7 +26,7 @@ public class Ejercicio24 {
         examenFinal = (examenFinal * 30) / 100;
         trabajoFinal = (trabajoFinal * 15) / 100;
 
-        double notaFinal = Math.round(notaTresEvaluaciones + examenFinal + trabajoFinal);
+        double notaFinal = notaTresEvaluaciones + examenFinal + trabajoFinal;
         System.out.print("Tu nota es " + notaFinal);
 
 

@@ -13,8 +13,8 @@ public class Ejercicio29 {
         int num2 = teclado.nextInt();
         int num3 = teclado.nextInt();
 
-       boolean valor = (num1 == num2) && (num2 == num3) ;
-        System.out.println(valor);
+       boolean valor = (num1 == num2) || (num2 == num3) || (num1 == num3) ;
+        System.out.println(!valor);
 
 
 

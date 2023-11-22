@@ -29,9 +29,9 @@ public class Ejercicio01 {
         for (int i = 0; i < columna; i++) {
             for (int j = 0; j < fila; j++) {
                 if (i == 0 || i == columna - 1 || j == 0 || j == fila - 1) {
-                    System.out.print("1");
+                    System.out.print("1 \t");
                 }else {
-                    System.out.print("0");
+                    System.out.print("0 \t");
                 }
             }
             System.out.println();

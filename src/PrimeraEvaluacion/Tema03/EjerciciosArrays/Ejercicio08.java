@@ -18,9 +18,10 @@ public class Ejercicio08 {
             numeros[i] = generador.nextInt(1, 50);
             if (numeros[i] % 2 == 0){
                 array[i] = numeros[i];
+            }else {
+                i--;
             }
         }
-        System.out.print("Los numeros son: " + Arrays.toString(numeros) + ", ");
         System.out.println("\n Los numeros pares son: "+Arrays.toString(array) + ", ");
     }
 }

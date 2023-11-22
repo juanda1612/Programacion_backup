@@ -9,14 +9,14 @@ import java.util.Scanner;
 public class Ejercicio09 {
     public static void main(String[] args) {
         Scanner teclado = new Scanner(System.in);
-        int numero = teclado.nextInt();
-        int[] array = new int[numero];
-        while (numero > 0){
-            numero = teclado.nextInt();
+        int tamaño = teclado.nextInt();
+        int[] array = new int[tamaño];
+
             for (int i = 0; i < array.length; i++) {
-                array[i] = teclado.nextInt();
+                do {
+                    array[i] = teclado.nextInt();
+                }while (array[i] > 0);
             }
-        }
         System.out.println(Arrays.toString(array));
     }
 }
