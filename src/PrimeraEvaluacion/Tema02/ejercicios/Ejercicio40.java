@@ -16,8 +16,7 @@ public class Ejercicio40 {
         int n = teclado.nextInt();
         int numAleatorio = generador.nextInt(1 , 100);
         if (n <= 100 && n > 0) {
-            while (n != numAleatorio) {
-                n = teclado.nextInt();
+            do {
                 if (n == 0){
                     System.out.println("Te rendiste");
                     break;
@@ -28,7 +27,8 @@ public class Ejercicio40 {
                 if (n < numAleatorio) {
                     System.out.println("El numero es mayor que el introducido");
                 }
-            }
+                n = teclado.nextInt();
+            } while (n != numAleatorio);
             System.out.println("El numero era " + numAleatorio);
         }else {
             System.out.println("Error");
