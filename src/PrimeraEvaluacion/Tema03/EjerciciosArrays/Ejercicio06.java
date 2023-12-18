@@ -15,16 +15,11 @@ public class Ejercicio06 {
         int[] numerosPositivo = new int[numeros.length];
         int[] numerosNegativo = new int[numeros.length];
         int[] numerosCero = new int[numeros.length];
+        int  indice = 0;
         for (int i = 0; i < numeros.length; i++) {
             numeros[i] = generador.nextInt(-10, 10);
-            if (numeros[i] == 0){
-                numerosCero[i] = numeros[i];
-            } else if (numeros[i] > 0) {
-                numerosPositivo[i] = numeros[i];
-            } else {
-                numerosNegativo[i] = numeros[i];
-            }
         }
+
         System.out.print("los numeros son: " + Arrays.toString(numeros));
         System.out.print("\n los numeros Positivos son: " + Arrays.toString(numerosPositivo));
         System.out.print("\n los numeros Negativos son : " + Arrays.toString(numerosNegativo));

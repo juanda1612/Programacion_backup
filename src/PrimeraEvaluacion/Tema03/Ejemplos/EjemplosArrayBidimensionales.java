@@ -24,9 +24,9 @@ public class EjemplosArrayBidimensionales {
         System.out.println(Arrays.toString(tabla[1]));
         System.out.println(Arrays.toString(tabla[2]));
 
-        // si en vez de referirme a una fila completa quiero referirme a un elemento del array bidimensional, lo indico asi: tabla[i][j] siendo i la dila(0 a (filas -1)) y j la columna (de 0 a tabla[i].length -1)
+        // si en vez de referirme a una fila completa quiero referirme a un elemento del array bidimensional, lo indico asi: tabla[i][j] siendo i la fila(0 a (filas -1)) y j la columna (de 0 a tabla[i].length -1)
         System.out.println(tabla[1][2]);
-        System.out.println("\nEstremos:");
+        System.out.println("\nExtremos:");
 
         // si quiero sacar el elemto que esta en el extremo superior izquierdo:
         System.out.println(tabla[0][0]);
