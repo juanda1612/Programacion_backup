@@ -1,6 +1,7 @@
 package SegundaEvaluacion.Colecciones.Ejercicios.ejercicio02rae;
 
 import java.util.HashMap;
+import java.util.Map;
 import java.util.Scanner;
 
 /*
@@ -14,23 +15,77 @@ donde se lleva a cabo la inserción después de comprobar que el carácter pasad
 public class Main {
     public static void main(String[] args) {
         // crear cinco academicos
-        Academico academico1 = new Academico("Maria", 2004);
-        Academico academico2 = new Academico("Pepito", 2005);
-        Academico academico3 = new Academico("Alvaro", 2006);
-        Academico academico4 = new Academico("Antonio", 2007);
-        Academico academico5 = new Academico("Jose Manuel", 2008);
+        Academico academico1 = crearAcademico("Maria", 2004);
+        Academico academico2 = crearAcademico("Pepito", 2005);
+        Academico academico3 = crearAcademico("Alvaro", 2006);
+        Academico academico4 = crearAcademico("Antonio", 2007);
+        Academico academico5 = crearAcademico("Jose Manuel", 2008);
 
-        HashMap<Character, Academico> mapa = new HashMap<>();
-        mapa.put('A', academico1);
-        mapa.put('B', academico2);
-        mapa.put('C', academico3);
-        mapa.put('D', academico4);
-        mapa.put('E', academico5);
+        HashMap<Character, Academico> academia = new HashMap<>();
+        // me piden que inserte los academicos con un metodo
+        // creo una variable de tipo boolean para ver si se ha podido insertar o no
+        //boolean insertado = nuevoAcadémico(academia, academico1, 'A');
+        /*if (insertado){
+            System.out.println("Academico insertado con exito.");
+        } else {
+            System.out.println("No se ha podido insertar el academico");
+        }
+         */
 
+        nuevoAcadémico(academia, academico1, 'A');
+        nuevoAcadémico(academia, academico2, 'B');
+        nuevoAcadémico(academia, academico3, 'C');
+        nuevoAcadémico(academia, academico4, 'D');
+        nuevoAcadémico(academia, academico5, 'E');
+
+        //academia.put('A', academico1);
+        //academia.put('B', academico2);
+        //academia.put('C', academico3);
+        //academia.put('D', academico4);
+        //academia.put('E', academico5);
+
+        /*
         Scanner teclado = new Scanner(System.in);
         System.out.println("Introduce una letra");
         char letra = teclado.next().charAt(0);
-        System.out.println(mapa.get(letra));
+        System.out.println(academia.get(letra));
+         */
 
+        //imprimirAcademico(academico2);
+        imprimirAcademia(academia);
+
+        }
+
+    // vamos a hacer un metodo que me imprima los academicos con sus datos: letra, nombre y año
+
+    public static void imprimirAcademico(Academico a){
+        System.out.println("Año\t\tNombre");
+        System.out.println(a.getAño()+"\t"+a.getNombre());
+    }
+    // imprimir toda la academia, con este formato: letra - año - nombre
+    public static void imprimirAcademia(HashMap<Character, Academico> academia){ // academia puede llamarse como sea, mapa, etc...
+        System.out.println("Letra\t\tAño\t\tNombre");
+        System.out.println("===========================");
+        // recorremos el mapa
+        for (Map.Entry<Character, Academico> entrada: academia.entrySet()) {
+            System.out.println(entrada.getKey() + "\t\t" + entrada.getValue().getAño() + "\t\t" + entrada.getValue().getNombre());
+        }
+    }
+
+    public static boolean nuevoAcadémico(Map<Character, Academico> academia, Academico nuevo, Character letra){
+        // tenemos que insertar el academico en el mapa comprobando antes si la letra lo es
+        if (Character.isLetter(letra)){ // isLetter comprueba si es una letra
+            // inserto el academico y devuelvo true
+            academia.put(letra, nuevo);
+            return true;
+        } else {
+            return false;
+        }
+    }
+
+    // vamos a crear los academicos con un metodo
+    public static Academico crearAcademico(String nombre, int año){
+        Academico academico = new Academico(nombre, año);
+        return academico;
     }
 }
