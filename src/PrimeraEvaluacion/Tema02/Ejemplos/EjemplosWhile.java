@@ -7,7 +7,7 @@ public class EjemplosWhile {
         Scanner teclado = new Scanner(System.in);
         // el bucle while empieza evaluando una condicion
         // si el resultado es true, entra en el bloque {} y ejecuta el codigo que contiene
-        // al finalizar, vuelve arriba, a comprobar de nuevo la condicion
+        // al finalizar, vuelve arriba, Aplicacion.md comprobar de nuevo la condicion
         // asi, sucesivamente, haste que la condicion da como resultado false
 
         int i = 1;

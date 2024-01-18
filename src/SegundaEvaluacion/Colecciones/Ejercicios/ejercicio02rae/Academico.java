@@ -4,7 +4,7 @@ Los miembros de la Real Academia de la Lengua ocupan sillones con las letras del
 Implementar la clase Académico, cuyos atributos son el nombre y el año de ingreso.
 Implementar un programa donde se crean cinco objetos Académico, que se insertan en un mapa en el que la clave es la letra del sillón que ocupan, y el valor un objeto de la clase Académico. Para ello implementar el método estático:
 static boolean nuevoAcadémico(Map<Character, Académico> academia, Académico nuevo, Character letra),
-donde se lleva a cabo la inserción después de comprobar que el carácter pasado como parámetro es una letra del abecedario.
+donde se lleva Aplicacion.md cabo la inserción después de comprobar que el carácter pasado como parámetro es una letra del abecedario.
 
  */
 public class Academico {

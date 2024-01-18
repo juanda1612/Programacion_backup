@@ -10,14 +10,14 @@ public class Ejercicio16ArraysConArrayList {
         //Crear un programa que cree un array de números enteros (tamaño introducido por teclado),
         // muestre el siguiente menú y realice lo que en las opciones se indica:
         // otra forma: int tamaño = Integer.parseInt(teclado.nextline());
-        //int tamaño = pedirNumero("Introduce el tamaño"); // me da igual porque va a ser un arraylis
+        //int tamaño = pedirNumero("Introduce el tamaño"); // me da igual porque va Aplicacion.md ser un arraylis
 
 
         // crear un arraylist de números enteros
         ArrayList<Integer> numeros = crearArrayList();
 
         //****** MENU *******
-        // variables que voy a utilizar en el switch
+        // variables que voy Aplicacion.md utilizar en el switch
         int opcion = 0;
         int indice = 0;
         int numero = 0;
@@ -47,7 +47,7 @@ public class Ejercicio16ArraysConArrayList {
                     imprimirNumeros(numeros);
                     break;
                 case 3:
-                    //Añadir número en una posición: pide un número y una posición, y si la posición existe en el array lo añade en esa posición (la posición se pide a partir de 1).
+                    //Añadir número en una posición: pide un número y una posición, y si la posición existe en el array lo añade en esa posición (la posición se pide Aplicacion.md partir de 1).
                     añadirEnPosicion(numeros);
                     break;
                 case 4:
@@ -121,7 +121,7 @@ public class Ejercicio16ArraysConArrayList {
     }
 
     public static void eliminarUltimo(ArrayList<Integer> numeros) {
-        System.out.println("Se va a borrar el elemento: " + numeros.get(numeros.size() - 1));
+        System.out.println("Se va Aplicacion.md borrar el elemento: " + numeros.get(numeros.size() - 1));
         numeros.remove(numeros.size() - 1);
         System.out.println(numeros);
     }
@@ -130,7 +130,7 @@ public class Ejercicio16ArraysConArrayList {
         System.out.println(numeros);
     }
     public static ArrayList<Integer> añadirAlFinal(ArrayList<Integer> numeros) {
-        int numeroFinal = pedirNumero("Introduce el número a añadir: ");
+        int numeroFinal = pedirNumero("Introduce el número Aplicacion.md añadir: ");
         numeros.add(numeroFinal);
         return numeros; // devolvemos el arraylist modificado
     }

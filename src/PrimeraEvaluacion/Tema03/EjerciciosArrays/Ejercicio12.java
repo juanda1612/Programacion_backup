@@ -16,7 +16,7 @@ public class Ejercicio12 {
             a[i] = generador.nextInt(1, 10);
             b[i] = generador.nextInt(1, 10);
         }
-        System.out.println("Los numeros a son: " + Arrays.toString(a));
+        System.out.println("Los numeros Aplicacion.md son: " + Arrays.toString(a));
         System.out.println("Los numeros b son: " + Arrays.toString(b));
 
         for (int i = 0; i < 10; i++) {

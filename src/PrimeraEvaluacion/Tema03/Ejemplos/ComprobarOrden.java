@@ -18,7 +18,7 @@ public class ComprobarOrden {
         // queremos averiguar si esta ordenado de esta forma
         boolean ordenAscendente = true;
         // Truco: si esta ordenado ascendentemente,cada elemento tiene que ser menor igual que el siguiente
-        // y tendria en este caso todo el array comparando los elementos dos a dos
+        // y tendria en este caso todo el array comparando los elementos dos Aplicacion.md dos
         // es mas corto pensar asi: si no esta ordenado, basta que un elemento sea mayor que el siguiente
 
         for (int i = 0; i < 5; i++) {

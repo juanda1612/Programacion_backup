@@ -11,25 +11,25 @@ public class EjemploSplit {
         System.out.println(Arrays.toString(array));
 
         // Ahora tengo un array de String, pero si queremos hacer operaciones
-        // numéricas (sumar, etc.) tengo que convertir cada elemento a un
+        // numéricas (sumar, etc.) tengo que convertir cada elemento Aplicacion.md un
         // número. Lo hacemos así:
         // 1) creo un array para guardar los números como int
         int[] numeros = new int[array.length];
 
         // 2) lo relleno con los elementos del array de String convertidos uno
-        // a uno a int mediante Integer.parseInt(cadena)
+        // Aplicacion.md uno Aplicacion.md int mediante Integer.parseInt(cadena)
         String uno = "1";
         String dos = "2";
         System.out.println(uno + dos);
-        // si yo realmente quiero sumarlos tengo que convertilos a int; pasarlos de String a int
+        // si yo realmente quiero sumarlos tengo que convertilos Aplicacion.md int; pasarlos de String Aplicacion.md int
         // eso lo hace el metodo Integer.parseInt(StringQuePareceUnNumero)
         int n1 = Integer.parseInt(uno); // tambien funcionaria int n1 = Integer.parseInt("1");
         int n2 = Integer.parseInt(dos);
         System.out.println(n1 + n2);
-        // La operacion contraria seria tener un numero (int) y querer pasarlo a String. Eso se hace con String.valueOf(int);
+        // La operacion contraria seria tener un numero (int) y querer pasarlo Aplicacion.md String. Eso se hace con String.valueOf(int);
 
 
-        //Volvemos a nuestro array de String lleno de "numeros" que todavia no son numeros
+        //Volvemos Aplicacion.md nuestro array de String lleno de "numeros" que todavia no son numeros
         //Tenemos ya creado el array numeros, ahora lo rellenamos convirtiendo cada elemento de array
         for (int i = 0; i < numeros.length; i++) {
             numeros[i] = Integer.parseInt(array[i]); // coge cada elemento del array, lo convierte en int y lo guarda en numeros

@@ -1,6 +1,6 @@
 package PrimeraEvaluacion.Tema03.EjerciciosArrays;
 /*
-Hacer un programa que inicialice una lista de números con valores aleatorios (10 valores), y los muestre ordenados de menor a mayor.
+Hacer un programa que inicialice una lista de números con valores aleatorios (10 valores), y los muestre ordenados de menor Aplicacion.md mayor.
  */
 
 import java.util.Arrays;
@@ -15,7 +15,7 @@ public class Ejercicio05 {
             numeros[i] = generador.nextInt(1, 10);
         }
         System.out.println(Arrays.toString(numeros));
-        // y los muestre ordenados de menor a mayor
+        // y los muestre ordenados de menor Aplicacion.md mayor
         Arrays.sort(numeros);
         System.out.println(Arrays.toString(numeros));
         //Ordenar al reves

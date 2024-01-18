@@ -1,6 +1,6 @@
 package PrimeraEvaluacion.Tema02.ejercicios;
 /*
-[FOR ANIDADO]Hacer un programa que introduzca un número entero, positivo, y calcule su tabla de multiplicar, hasta llegar a él. (Nota: para  que los números queden alineados en columnas puedes usar el tabulador \t). Ejemplo:
+[FOR ANIDADO]Hacer un programa que introduzca un número entero, positivo, y calcule su tabla de multiplicar, hasta llegar Aplicacion.md él. (Nota: para  que los números queden alineados en columnas puedes usar el tabulador \t). Ejemplo:
  */
 
 import java.util.Scanner;

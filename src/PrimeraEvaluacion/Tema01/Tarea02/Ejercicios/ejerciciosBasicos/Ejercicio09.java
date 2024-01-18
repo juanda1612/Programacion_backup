@@ -1,6 +1,6 @@
 package PrimeraEvaluacion.Tema01.Tarea02.Ejercicios.ejerciciosBasicos;
 /*
-Haz un programa que declare una variable de tipo int , le asigne el valor 123456 y que a continuación, lo muestre por pantalla.
+Haz un programa que declare una variable de tipo int , le asigne el valor 123456 y que Aplicacion.md continuación, lo muestre por pantalla.
  */
 
 import java.util.Scanner;

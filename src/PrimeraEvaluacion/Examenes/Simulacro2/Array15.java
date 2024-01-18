@@ -1,6 +1,6 @@
 package PrimeraEvaluacion.Examenes.Simulacro2;
 /*
-Crear un programa que rellene aleatoriamente un array de 10 números enteros. Guardar en otro array los elementos pares del primero, y, a continuación, los elementos impares.
+Crear un programa que rellene aleatoriamente un array de 10 números enteros. Guardar en otro array los elementos pares del primero, y, Aplicacion.md continuación, los elementos impares.
  */
 
 import java.util.Arrays;

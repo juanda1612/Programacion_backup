@@ -21,9 +21,9 @@ public class EjemplosIfElseIf {
         System.out.println("Edad?");
         int edad = teclado.nextInt();
         if (edad < 16) {
-            System.out.println("a estudiar");
+            System.out.println("Aplicacion.md estudiar");
         } else if (edad >= 16 && edad < 65) {
-            System.out.println("A trabajar o a estudiar");
+            System.out.println("A trabajar o Aplicacion.md estudiar");
         } else {
             System.out.println("A descansar");
         }

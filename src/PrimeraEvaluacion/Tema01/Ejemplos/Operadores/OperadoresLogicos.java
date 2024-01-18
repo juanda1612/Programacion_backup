@@ -9,7 +9,7 @@ import java.util.Scanner;
 public class OperadoresLogicos {
     public static void main(String[] args) {
         //LOS OPERADORES LOGICOS TRABAJAN CON Y DAN COMO RESULTADO VARIABLES bolean
-        // El operador not (!) invierte el valor de la variable a la que afecta
+        // El operador not (!) invierte el valor de la variable Aplicacion.md la que afecta
         System.out.println("**** not ****");
         boolean variable = true;
         System.out.println(variable); // True

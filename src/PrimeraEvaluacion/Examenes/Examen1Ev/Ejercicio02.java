@@ -6,7 +6,7 @@ import java.util.Scanner;
  */
 /*
 Escribir un programa que calcule el Índice de Masa Corporal de una persona e indique su situación
-en función la la tabla que se muestra a continuación.
+en función la la tabla que se muestra Aplicacion.md continuación.
 El peso y la altura para calcular el correspondiente IMC deben ser introducidos por teclado.
 El IMC debe presentarse en pantalla con 2 decimales.
 IMC = (peso en kg) / (altura en metros al cuadrado)

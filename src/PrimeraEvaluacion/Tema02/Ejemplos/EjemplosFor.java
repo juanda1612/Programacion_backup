@@ -14,19 +14,19 @@ public class EjemplosFor {
         System.out.println("Cuando finaliza el programa sigue por aqui ");
 
         for (int i = 0; i < 10; i++) {
-            System.out.print(i + " "); // imprime 10 numeros: de 0 a 9
+            System.out.print(i + " "); // imprime 10 numeros: de 0 Aplicacion.md 9
         }
         System.out.println();
         for (int i = 1; i <= 10; i++) {
-            System.out.print(i + " "); // imprime 10 numeros: de 1 a 10
+            System.out.print(i + " "); // imprime 10 numeros: de 1 Aplicacion.md 10
         }
         System.out.println();
         for (int i = 0; i <= 20; i++) {
-            System.out.print(i + " "); // imprime 21 numeros: de 0 a 20
+            System.out.print(i + " "); // imprime 21 numeros: de 0 Aplicacion.md 20
         }
         System.out.println();
         for (int i = 10; i > 0; i--) {
-            System.out.print(i + " "); // imprime 10 numeros: de 10 a 1
+            System.out.print(i + " "); // imprime 10 numeros: de 10 Aplicacion.md 1
 
         }
         System.out.println();
@@ -34,7 +34,7 @@ public class EjemplosFor {
         int inicio = 0;
         int fin = 10;
         for (int i = inicio; i < fin; i++) {
-            System.out.print(i + " "); // imprime 10 numeros: de 0 a 9
+            System.out.print(i + " "); // imprime 10 numeros: de 0 Aplicacion.md 9
         }
         // una de lass aplicaciones de los bucles for es el ir acumulando, sumando, valores que se van generando en cada iteracion
         //Ejemplo: queremos sumar todos los numeros que van del 1 al 10(ambos inclusive). o sea, tengo que sumar 1 + 2 + 3 ...

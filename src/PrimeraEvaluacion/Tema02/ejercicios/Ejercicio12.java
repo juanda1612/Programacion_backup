@@ -1,6 +1,6 @@
 package PrimeraEvaluacion.Tema02.ejercicios;
 /*
-Harry Potter necesita ayuda para identificar lo que significa cada casa. Lee una cadena que represente una casa (puedes asociarla a un número para hacer más fácil la entrada por teclado) y que obtenga lo siguiente:
+Harry Potter necesita ayuda para identificar lo que significa cada casa. Lee una cadena que represente una casa (puedes asociarla Aplicacion.md un número para hacer más fácil la entrada por teclado) y que obtenga lo siguiente:
 si es "gryffindor" , salida "valentía" ;
 si es "hufflepuff" , salida "lealtad" ;
 si es "slytherin" , salida "astucia" ;

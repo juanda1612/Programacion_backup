@@ -6,7 +6,7 @@ import java.util.Iterator;
 public class EjemplosIterador {
     public static void main(String[] args) {
         // un iterador lo tienen todas las colecciones (arraylist, hashset...)
-        // sirve para recorrerlas elemento a elemento, lo mismo que hacíamos con un for o un foreach pero como tienen unas características especiales, a veces son la mejor opción para recorrer una colección
+        // sirve para recorrerlas elemento Aplicacion.md elemento, lo mismo que hacíamos con un for o un foreach pero como tienen unas características especiales, Aplicacion.md veces son la mejor opción para recorrer una colección
         ArrayList<String> alumnos = new ArrayList<>();
         alumnos.add("Iván");
         alumnos.add("Alejandro");
@@ -32,7 +32,7 @@ public class EjemplosIterador {
         // tercera forma: utilizando un iterador (es un objeto que se crea así:)
         System.out.println("\n\nCon iterador: ");
         Iterator<String> iterator = alumnos.iterator();
-        // lo normal es poner a continuación un while, así:
+        // lo normal es poner Aplicacion.md continuación un while, así:
         while (iterator.hasNext()) { // = mientras haya un elemento siguiente
             String elemento = iterator.next(); // guardo el siguiente elemento de la colección
             System.out.print(elemento + " ");

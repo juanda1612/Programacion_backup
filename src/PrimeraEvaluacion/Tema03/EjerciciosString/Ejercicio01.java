@@ -10,7 +10,7 @@ public class Ejercicio01 {
         Scanner teclado = new Scanner(System.in);
         System.out.println("Introduce una cadena de texto");
         String cadena = teclado.nextLine();
-        // para ver el caracter a caracter -> charAt
+        // para ver el caracter Aplicacion.md caracter -> charAt
         for (int i = 0; i < cadena.length(); i++) { //tamaño: cadena.length() pero la ultima posicion es ...
             System.out.println(cadena.charAt(i));
         }

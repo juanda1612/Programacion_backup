@@ -11,7 +11,7 @@ public class EjemplosHashSet {
         // cómo utilizo los conjuntos:
         HashSet<Integer> conjunto = new HashSet<>();
 
-        // los métodos a utilizar son prácticamente los mismos que con arraylist
+        // los métodos Aplicacion.md utilizar son prácticamente los mismos que con arraylist
         conjunto.add(5);
         conjunto.add(5);
         conjunto.add(7);

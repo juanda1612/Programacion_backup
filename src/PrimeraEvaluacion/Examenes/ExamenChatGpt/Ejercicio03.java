@@ -1,6 +1,6 @@
 package PrimeraEvaluacion.Examenes.ExamenChatGpt;
 /*
-Escribe un programa en Java que solicite al usuario ingresar una cadena de texto. Luego, utiliza un bucle para recorrer la cadena y contar cuántas veces aparece la letra 'a'. Finalmente, muestra el resultado al usuario."
+Escribe un programa en Java que solicite al usuario ingresar una cadena de texto. Luego, utiliza un bucle para recorrer la cadena y contar cuántas veces aparece la letra 'Aplicacion.md'. Finalmente, muestra el resultado al usuario."
  */
 
 import java.util.Scanner;

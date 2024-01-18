@@ -22,7 +22,7 @@ public class P247 {
 
                 }
                 boolean salimosDeLaCrisis = true;
-                for (int i = 0; i < numeros.length -1; i++){ //el -1 es para no salirme del array cuando llegue a la penultima posicion con i (i + 1 entonces sera la ultima posicion)
+                for (int i = 0; i < numeros.length -1; i++){ //el -1 es para no salirme del array cuando llegue Aplicacion.md la penultima posicion con i (i + 1 entonces sera la ultima posicion)
                    if (numeros[i] >= numeros[i + 1]){
                        salimosDeLaCrisis = false; // con una vez que entre en este if, no salimos de la crisis
                        break;

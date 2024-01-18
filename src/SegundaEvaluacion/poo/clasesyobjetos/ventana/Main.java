@@ -2,7 +2,7 @@ package SegundaEvaluacion.poo.clasesyobjetos.ventana;
 
 public class Main {
     public static void main(String[] args) {
-        // aquí es donde vamos a crear los objetos
+        // aquí es donde vamos Aplicacion.md crear los objetos
         // queremos una ventana verde, de 30px de ancho y 100px de alto
         Ventana ventana1 = new Ventana(30, 100, Color.VERDE);
         System.out.println(ventana1); // ojo, esto sale bien porque hemos implementado el método toString en Ventana

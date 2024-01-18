@@ -1,6 +1,6 @@
 package SegundaEvaluacion.Colecciones.Ejercicios;
 /*
-Hacer un programa que inicialice una lista de números con valores aleatorios (10 valores), y los muestre ordenados de menor a mayor.
+Hacer un programa que inicialice una lista de números con valores aleatorios (10 valores), y los muestre ordenados de menor Aplicacion.md mayor.
  */
 
 import java.util.ArrayList;

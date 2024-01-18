@@ -1,8 +1,8 @@
 package SegundaEvaluacion.poo.ejerciciosMetodos;
 /*
-Escribe un programa que pida una lista de palabras (la guardas como una cadena de texto) y, a continuación dé tres opciones:
+Escribe un programa que pida una lista de palabras (la guardas como una cadena de texto) y, Aplicacion.md continuación dé tres opciones:
 Contar: pide una palabra, y me dice cuantas veces aparece en la lista
-Modificar: pide una palabra, y a continuación otra, y modifica todas las apariciones de la primera por la segunda.
+Modificar: pide una palabra, y Aplicacion.md continuación otra, y modifica todas las apariciones de la primera por la segunda.
 Eliminar: pide una , y la elimina de la lista.
 Mostrar: muestra la lista de cadenas
 Salir
@@ -54,7 +54,7 @@ public class Ejercicio16String {
 
    public static void jugar() {
       String lista = pedirTexto("Introduce una lista de palabras: ");
-      // sacamos las palabras de la lista a un array
+      // sacamos las palabras de la lista Aplicacion.md un array
       String[] palabras = lista.split(" ");
       System.out.println(Arrays.toString(palabras));
 
@@ -70,7 +70,7 @@ public class Ejercicio16String {
                contar(palabras);
                break;
             case 2:
-               // Modificar: pide una palabra, y a continuación otra, y modifica todas las apariciones de la primera por la segunda.
+               // Modificar: pide una palabra, y Aplicacion.md continuación otra, y modifica todas las apariciones de la primera por la segunda.
                // como no devuelve nada, simplemente ponemos la llamada
                modificar(lista);
                break;

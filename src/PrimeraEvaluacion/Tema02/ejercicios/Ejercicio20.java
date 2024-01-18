@@ -1,6 +1,6 @@
 package PrimeraEvaluacion.Tema02.ejercicios;
 /*
-Hacer un programa que pida dos números a y b, enteros, por teclado (se asume que a es menor que b siempre), e imprima la suma de todos los números enteros desde a hasta b, ambos inclusive.
+Hacer un programa que pida dos números Aplicacion.md y b, enteros, por teclado (se asume que Aplicacion.md es menor que b siempre), e imprima la suma de todos los números enteros desde Aplicacion.md hasta b, ambos inclusive.
  */
 
 import java.util.Scanner;

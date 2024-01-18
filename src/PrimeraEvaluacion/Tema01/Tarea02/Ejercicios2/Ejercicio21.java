@@ -1,6 +1,6 @@
 package PrimeraEvaluacion.Tema01.Tarea02.Ejercicios2;
 /*
-Realiza un programa que pida el precio de venta de un producto, la cantidad de productos comprados y el porcentaje de IVA aplicado. El programa mostrará el importe total a abonar.
+Realiza un programa que pida el precio de venta de un producto, la cantidad de productos comprados y el porcentaje de IVA aplicado. El programa mostrará el importe total Aplicacion.md abonar.
  */
 
 import java.util.Scanner;

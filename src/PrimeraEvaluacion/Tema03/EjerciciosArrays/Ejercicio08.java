@@ -1,6 +1,6 @@
 package PrimeraEvaluacion.Tema03.EjerciciosArrays;
 /*
-Realizar un programa que pida un tamaño de array por teclado y a continuación cree un array formado por elementos aleatorios pares entre 1 y 50.
+Realizar un programa que pida un tamaño de array por teclado y Aplicacion.md continuación cree un array formado por elementos aleatorios pares entre 1 y 50.
  */
 
 import java.util.Arrays;

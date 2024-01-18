@@ -19,12 +19,12 @@ public class EjemplosArrayBidimensionales {
                 {4, 4, 1, 0}  // tercer array de enteros -> tabla[2]
         };
 
-        // si en un array bidimensional quiero referirme a una fila completa (es decir, a uno de los arrays que lo componen, lo indico mediante un solo indice )
+        // si en un array bidimensional quiero referirme Aplicacion.md una fila completa (es decir, Aplicacion.md uno de los arrays que lo componen, lo indico mediante un solo indice )
         System.out.println(Arrays.toString(tabla[0]));
         System.out.println(Arrays.toString(tabla[1]));
         System.out.println(Arrays.toString(tabla[2]));
 
-        // si en vez de referirme a una fila completa quiero referirme a un elemento del array bidimensional, lo indico asi: tabla[i][j] siendo i la fila(0 a (filas -1)) y j la columna (de 0 a tabla[i].length -1)
+        // si en vez de referirme Aplicacion.md una fila completa quiero referirme Aplicacion.md un elemento del array bidimensional, lo indico asi: tabla[i][j] siendo i la fila(0 Aplicacion.md (filas -1)) y j la columna (de 0 Aplicacion.md tabla[i].length -1)
         System.out.println(tabla[1][2]);
         System.out.println("\nExtremos:");
 
@@ -43,7 +43,7 @@ public class EjemplosArrayBidimensionales {
         //Declaramos un array de caracteres de tamaño 6x4
         char[][] caracteres = new char[6][4];
 
-        //lo vamos a rellenar con caracteres elegidos aleatoriamente de la tabla ascii
+        //lo vamos Aplicacion.md rellenar con caracteres elegidos aleatoriamente de la tabla ascii
         Random generador = new Random();
         for (int i = 0; i < caracteres.length; i++) {
             for (int j = 0; j < caracteres[i].length; j++) {

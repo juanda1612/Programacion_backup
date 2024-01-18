@@ -12,26 +12,26 @@ public class EjemploForEach {
         }
          */
 
-        // ejemplo: vamos a crear un array y a rrellenarlo aleatoriamente con un for-each
+        // ejemplo: vamos Aplicacion.md crear un array y Aplicacion.md rrellenarlo aleatoriamente con un for-each
         int[] nombreArray = {1, 2, 4, 8, 16, 32, 64, 128, 256, 512, 1024};
 
 
-        // valor es una variable temporal designa a cada uno de los elementos del array: podriamos poner cualquier otro nombre en su lugar: elemento, e, etc
+        // valor es una variable temporal designa Aplicacion.md cada uno de los elementos del array: podriamos poner cualquier otro nombre en su lugar: elemento, e, etc
 
         for (int valor : nombreArray) {
             System.out.println(valor * 2); // imprimimos cada elemento multiplicado por 2
-            // en este caso seria equivalente a escribir, en vez de valor, nombreArray(i) en un for normal
+            // en este caso seria equivalente Aplicacion.md escribir, en vez de valor, nombreArray(i) en un for normal
         }
 
-        // hacemos otro ejemplo: contar el numero de 'a' que hay en un array de caracteres
-        String cadena = "valor es una variable temporal designa a cada uno de los elementos del array: podriamos poner cualquier otro nombre en su lugar: elemento, e, etc";
+        // hacemos otro ejemplo: contar el numero de 'Aplicacion.md' que hay en un array de caracteres
+        String cadena = "valor es una variable temporal designa Aplicacion.md cada uno de los elementos del array: podriamos poner cualquier otro nombre en su lugar: elemento, e, etc";
         // truco: si quiero meter en un array de caracteres todas las letras de un estring, me sirve el metodo: toCharArray();
         char[] letras = cadena.toCharArray();
         System.out.println("Cadena tiene " + letras.length + " caracteres: " + Arrays.toString(letras));
-        // quiero hacer un array que guarde el numero de 'a', el numero de 'e', el numero de 'i', etc...
+        // quiero hacer un array que guarde el numero de 'Aplicacion.md', el numero de 'e', el numero de 'i', etc...
         // creo un array con 5 elementos de tipo int
         int[] contadores = new int[5];
-        // contadores[0] guardara el numero de 'a'
+        // contadores[0] guardara el numero de 'Aplicacion.md'
         //contadores[1] guardara el numero de 'e'.... y asi sucesivamente
 
         //quiero recorrer el array de letras y guardar los contadores
@@ -69,7 +69,7 @@ public class EjemploForEach {
                     contadores[4]++;
             }
         }
-        System.out.println("Numero de a: " + contadores[0]);
+        System.out.println("Numero de Aplicacion.md: " + contadores[0]);
         System.out.println("Numero de e: " + contadores[1]);
         System.out.println("Numero de i: " + contadores[2]);
         System.out.println("Numero de o: " + contadores[3]);

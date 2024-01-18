@@ -11,8 +11,8 @@ public class Ejercicio21 {
         int a = teclado.nextInt();
         int b = teclado.nextInt();
 /*
-        int mayor = Math.min(a, b);
-        int menor = Math.max(a, b);
+        int mayor = Math.min(Aplicacion.md, b);
+        int menor = Math.max(Aplicacion.md, b);
         int suma = 0;
         for (int i = mayor; i <= menor; i++) {
             suma = suma + i;

@@ -14,7 +14,7 @@ public class Ejercicio38 {
         while (true){
             if (vocal.equalsIgnoreCase(" ")){
                 break;
-            }if (vocal.equalsIgnoreCase("a")){
+            }if (vocal.equalsIgnoreCase("Aplicacion.md")){
                 System.out.println("VOCAL");
             } else if(vocal.equalsIgnoreCase("e")) {
                 System.out.println("VOCAL");

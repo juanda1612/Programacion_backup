@@ -1,6 +1,6 @@
 package PrimeraEvaluacion.Tema02.ejercicios;
 /*
-[FOR ANIDADO] Escribe un programa que reciba dos valores enteros por teclado, a y b, y dibuje un rectángulo en que la base sea el número mayor y la altura el número menor, con un carácter también introducido por teclado.
+[FOR ANIDADO] Escribe un programa que reciba dos valores enteros por teclado, Aplicacion.md y b, y dibuje un rectángulo en que la base sea el número mayor y la altura el número menor, con un carácter también introducido por teclado.
  */
 
 import java.util.Scanner;

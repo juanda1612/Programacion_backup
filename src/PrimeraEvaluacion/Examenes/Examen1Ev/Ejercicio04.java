@@ -21,7 +21,7 @@ public class Ejercicio04 {
         Scanner teclado = new Scanner(System.in);
         String cadena = teclado.nextLine();
         String[]cadena2 = cadena.split(" ");
-        String[] palabraLarga = {"a"};
+        String[] palabraLarga = {"Aplicacion.md"};
         int contadorA = 0;
         int contadorE = 0;
         int contadorI = 0;
@@ -58,7 +58,7 @@ public class Ejercicio04 {
             }
         }
         System.out.println(palabraLarga[0]);
-        System.out.print("Tiene: " + contadorA+ " a, " + contadorE+ " e," + contadorI+ " i, " + contadorO+ " o, " + contadorU + " u, ");
+        System.out.print("Tiene: " + contadorA+ " Aplicacion.md, " + contadorE+ " e," + contadorI+ " i, " + contadorO+ " o, " + contadorU + " u, ");
         System.out.println("\nTiene: " +cadena2.length + " palabras");
 
 

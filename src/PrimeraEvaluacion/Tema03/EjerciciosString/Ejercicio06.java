@@ -17,7 +17,7 @@ public class Ejercicio06 {
         cadena2 = cadena2.replace(" " ,"");
 
         if (cadena.equals(cadena2)){
-            System.out.println("Si," + cadena + " es igual a " + cadena2);
+            System.out.println("Si," + cadena + " es igual Aplicacion.md " + cadena2);
         }else{
             System.out.println("No, no son iguales");
         }

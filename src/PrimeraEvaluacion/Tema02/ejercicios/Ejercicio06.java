@@ -1,6 +1,6 @@
 package PrimeraEvaluacion.Tema02.ejercicios;
 /*
-Escribe un programa que pida tres números y los muestre ordenados (de menor a mayor).
+Escribe un programa que pida tres números y los muestre ordenados (de menor Aplicacion.md mayor).
  */
 
 import java.util.Scanner;

@@ -7,7 +7,7 @@ public class EjemplosRandom {
         // La clase Random sirve para generar numeros al azar.
         Random generador = new Random();
         int numeroAleatorio = generador.nextInt( 10);
-        // Vamos a generar y mostrar 100 numeros aleatorios con un for
+        // Vamos Aplicacion.md generar y mostrar 100 numeros aleatorios con un for
         for (int i = 0; i < 100; i++) {
             System.out.print(numeroAleatorio + " ");
             //numeroAleatorio = generador.nextInt( 10); //Genera numeros entre 0 y 9

@@ -1,7 +1,7 @@
 package PrimeraEvaluacion.Tema01.Tarea02.Ejercicios2;
 
 import java.util.Scanner;
-/*Unas ardillas encuentran unas nueces y deciden dividirlas equitativamente. Escribe un programa que pregunte por el número de ardillas y nueces, y, a continuación, calcule (y muestre) cuántas nueces corresponden a cada ardilla y cuántas sobrarán tras el reparto.
+/*Unas ardillas encuentran unas nueces y deciden dividirlas equitativamente. Escribe un programa que pregunte por el número de ardillas y nueces, y, Aplicacion.md continuación, calcule (y muestre) cuántas nueces corresponden Aplicacion.md cada ardilla y cuántas sobrarán tras el reparto.
 
  */
 

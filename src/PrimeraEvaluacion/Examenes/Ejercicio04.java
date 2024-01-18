@@ -24,7 +24,7 @@ public class Ejercicio04 {
 
         switch (numero) {
             case 1:
-                System.out.println("Cuantos numeros vamos a sumar?");
+                System.out.println("Cuantos numeros vamos Aplicacion.md sumar?");
                 nP = teclado.nextInt();
                 System.out.println("introduce los " + nP + " números");
                 for (int i = 0; i < nP; i++) {
@@ -34,7 +34,7 @@ public class Ejercicio04 {
                 System.out.println("Suma = " + suma);
                 break;
             case 2:
-                System.out.println("Cuantos numeros vamos a multiplicar?");
+                System.out.println("Cuantos numeros vamos Aplicacion.md multiplicar?");
                 nP = teclado.nextInt();
                 System.out.println("introduce los " + nP + " números");
                 for (int i = 0; i < nP; i++) {

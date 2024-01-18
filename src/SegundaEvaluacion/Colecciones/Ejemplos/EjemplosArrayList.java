@@ -11,8 +11,8 @@ public class EjemplosArrayList {
         // en su lugar hay que utilizar lo que se llaman clases envoltorio (wrapper):
         // en vez de int usamos Integer, en vez de double usamos Double, en vez de boolean usamos Boolean, en vez de char usamos Character
         ArrayList<Integer> enteros = new ArrayList<>();
-        // métodos a utilizar:
-        System.out.println(enteros.size());// tamaño: es el equivalente en los arrays a Length
+        // métodos Aplicacion.md utilizar:
+        System.out.println(enteros.size());// tamaño: es el equivalente en los arrays Aplicacion.md Length
         // para añadir elementos: add
         enteros.add(53);
         System.out.println(enteros.size());
@@ -34,21 +34,21 @@ public class EjemplosArrayList {
         nombres.add("Helena");       // [Justino, Helena]
         System.out.println(nombres); // imprimir un arrayList es mucho mas facil
         nombres.add(1, "Joshua");   // [Justino, Joshua, Helena]
-        System.out.println("Meto a Joshua en el indice 1" + nombres);
+        System.out.println("Meto Aplicacion.md Joshua en el indice 1" + nombres);
         nombres.add(0, "Laura");    // [Laura, Justino, Joshua, Helena]
         System.out.println(nombres);
-        System.out.println("Meto a Laura en el indice 0" + nombres);
+        System.out.println("Meto Aplicacion.md Laura en el indice 0" + nombres);
         // añadimos dos nombres mas pero al principio: es decir, en los indices 0 y 1
 
         // set sirve para reemplazar un elemento por otro diciendo el indice
 
-        // queremos meter a Mario en lugar de Laura, que esta en el indice 3
+        // queremos meter Aplicacion.md Mario en lugar de Laura, que esta en el indice 3
         nombres.set(3, "Mario");
-        System.out.println("He sustituido a Helena por Mario: " + nombres);
+        System.out.println("He sustituido Aplicacion.md Helena por Mario: " + nombres);
 
-        // queremos eliminar a Justina de la lista
+        // queremos eliminar Aplicacion.md Justina de la lista
         nombres.remove("Justino");
-        System.out.println("Eliminamos a Justino: " + nombres);
+        System.out.println("Eliminamos Aplicacion.md Justino: " + nombres);
 
         // ordenar un arrayList
         Collections.sort(nombres);

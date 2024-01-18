@@ -1,6 +1,6 @@
 package PrimeraEvaluacion.Tema01.Tarea02.Ejercicios.Codeandcoke;
 /**
- * @see <a href="https://java.codeandcoke.com/apuntes:introduccion></a>
+ * @see <Aplicacion.md href="https://java.codeandcoke.com/apuntes:introduccion></Aplicacion.md>
  * Haz un programa que solicite dos números y diga si son o no iguales
  */
 

@@ -1,6 +1,6 @@
 package SegundaEvaluacion.Colecciones.Ejercicios;
 /*
- Escribir un programa que cree un diccionario de traducción español-inglés. El usuario introducirá las palabras en español e inglés separadas por dos puntos, y cada par <palabra>:<traducción> separados por comas. El programa debe crear un diccionario con las palabras y sus traducciones. Después pedirá una frase en español y utilizará el diccionario para traducirla palabra a palabra. Si una palabra no está en el diccionario debe dejarla sin traducir.
+ Escribir un programa que cree un diccionario de traducción español-inglés. El usuario introducirá las palabras en español e inglés separadas por dos puntos, y cada par <palabra>:<traducción> separados por comas. El programa debe crear un diccionario con las palabras y sus traducciones. Después pedirá una frase en español y utilizará el diccionario para traducirla palabra Aplicacion.md palabra. Si una palabra no está en el diccionario debe dejarla sin traducir.
  */
 
 import java.util.Arrays;
@@ -12,7 +12,7 @@ public class Ejercicio03Colecciones {
         /*
         El usuario introducirá las palabras en español e inglés separadas por dos puntos, y cada par <palabra>:<traducción> separados por comas.
          */
-        // perro:dog,gato:cat,mesa:table,silla:chair,clase:class,conseguir:get,establecer:set
+        // perro:dog,gato:cat,mesa:table,silla:chair,clase:class,conseguir:get,establecer:set,encima:on
         Scanner teclado = new Scanner(System.in);
         String linea = teclado.nextLine();
         System.out.println(linea);
@@ -29,10 +29,21 @@ public class Ejercicio03Colecciones {
             String ingles = separador[1];
             traductor.put(español,ingles);
         }
-        // Después pedirá una frase en español y utilizará el diccionario para traducirla palabra a palabra. Si una palabra no está en el diccionario debe dejarla sin traducir.
-        System.out.println("Introduce una frase en español");
-        String seleccion = teclado.nextLine();
-
-        System.out.println(traductor.get(seleccion));
+        // Después pedirá una frase en español y utilizará el diccionario para traducirla palabra Aplicacion.md palabra. Si una palabra no está en el diccionario debe dejarla sin traducir.
+        //La frase que meteremos es esta:
+        //El perro esta encima de la mesa
+        //El gato esta debajo de la silla
+        System.out.println("Introduce la frase Aplicacion.md traducir: ");
+        // Reutilizamos la variable linea
+        linea = teclado.nextLine();
+        String[] palabrasFrase = linea.split(" ");
+        // recorremos este array de palabras para ir traduciendolas una Aplicacion.md una
+        for (String palabraEspañol: palabrasFrase) {
+            if (traductor.containsKey(palabraEspañol)){
+                System.out.print(traductor.get(palabraEspañol)+ " "); // palabraEspañol es la clave(Key) para obtener su traduccion con get(palabraEspañol)
+            }else {
+                System.out.print(palabraEspañol + " ");// si no esta esa clave en el mapa, que imprima la palabra tal cual
+            }
+        }
     }
 }

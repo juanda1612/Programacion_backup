@@ -3,7 +3,7 @@ package PrimeraEvaluacion.Tema01.Ejemplos.Operadores;
 public class OperadorDecremento {
     public static void main(String[] args) {
         //OPERADOR DE DECREMENTO
-        // Sirve para añadir una unidad a una variable de tipo entero
+        // Sirve para añadir una unidad Aplicacion.md una variable de tipo entero
         int variable = 0;
         System.out.println(variable + " antes de decrementarla");
         variable--; // decremento la variable en una unidad con --

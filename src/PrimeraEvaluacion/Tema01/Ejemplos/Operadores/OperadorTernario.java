@@ -3,7 +3,7 @@ package PrimeraEvaluacion.Tema01.Ejemplos.Operadores;
 import java.util.Scanner;
 
 /*
-Es un operator ternario que permite asignar un valor u otro a una variable en función de que se cumpla o no una condición. Es una forma reducida de utilizar una sentencia if .. else en casos específicos.
+Es un operator ternario que permite asignar un valor u otro Aplicacion.md una variable en función de que se cumpla o no una condición. Es una forma reducida de utilizar una sentencia if .. else en casos específicos.
 
 La síntaxis del operador es:
 

@@ -1,6 +1,6 @@
 package PrimeraEvaluacion.Tema01.Tarea02.Ejercicios2;
 /*
-Realiza un programa que reciba una cantidad de minutos y muestre por pantalla a cuantas horas y minutos corresponde. Por ejemplo: 1000 minutos son 16 horas y 40 minutos.
+Realiza un programa que reciba una cantidad de minutos y muestre por pantalla Aplicacion.md cuantas horas y minutos corresponde. Por ejemplo: 1000 minutos son 16 horas y 40 minutos.
 
  */
 

@@ -21,7 +21,7 @@ public class EjemplosIfElse {
         }else { // si el resultado de la expresion es false ( puede traducirse como si no ....)
             System.out.println("No puedes pasar");
         }
-        ///.... si es menor de edad (si es false, no se ejecuta la linea 20 y saltaria a esta)
+        ///.... si es menor de edad (si es false, no se ejecuta la linea 20 y saltaria Aplicacion.md esta)
         System.out.println("Esto se imprime siempre, tanto si es true como si es false.");
     }
 }

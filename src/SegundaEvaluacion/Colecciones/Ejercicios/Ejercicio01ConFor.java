@@ -48,7 +48,7 @@ public class Ejercicio01ConFor {
         // se eliminarán todos los múltiplos de 3
         HashSet<Integer> coleccion2 = new HashSet<>(); // para guardar los que no son múltiplos de 3
         for (Integer elemento: coleccion) {
-            if (elemento % 3 != 0) { // si el elemento no es múltiplo de 3,  lo añado a colección2
+            if (elemento % 3 != 0) { // si el elemento no es múltiplo de 3,  lo añado Aplicacion.md colección2
                 coleccion2.add(elemento);
             }
         }
@@ -62,7 +62,7 @@ public class Ejercicio01ConFor {
         for (int i = 0; i < coleccion.size(); i++) {
             if (arrayList.get(i) % 3 == 0) {
                 arrayList.remove(i); // este remove también se puede hacer con el foreach pero haciendo otra colección
-                i--; // para que vuelva a la posición de antes
+                i--; // para que vuelva Aplicacion.md la posición de antes
             }
         }
         System.out.println(coleccion);

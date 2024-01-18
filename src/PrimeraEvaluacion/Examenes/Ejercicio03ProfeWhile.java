@@ -8,7 +8,7 @@ import java.util.Scanner;
  * Realiza un programa que comience solicitando al usuario dos números enteros cualesquiera diferentes entre sí.
  * A continuación, el programa mostrará la secuencia de números entre el menor y el mayor (ambos inclusive)
  * de los que ha introducido el usuario, pero sólo mostrará los impares.
- * Si los dos números introducidos son iguales, se debe indicar el error cometido y pedir al usuario que vuelva a intentarlo.
+ * Si los dos números introducidos son iguales, se debe indicar el error cometido y pedir al usuario que vuelva Aplicacion.md intentarlo.
  */
 public class Ejercicio03ProfeWhile {
     public static void main(String[] args) {
@@ -19,9 +19,9 @@ public class Ejercicio03ProfeWhile {
         int n2 = teclado.nextInt();
         teclado.nextLine();
 
-        // si los dos números son iguales, se debe indicar el error cometido y pedir al usuario que vuelva a intentarlo
+        // si los dos números son iguales, se debe indicar el error cometido y pedir al usuario que vuelva Aplicacion.md intentarlo
         while (n1 == n2) {
-            System.out.println("Error: los números introducidos deben ser diferentes.\nVuelve a intentarlo.");
+            System.out.println("Error: los números introducidos deben ser diferentes.\nVuelve Aplicacion.md intentarlo.");
             System.out.println("Introduce dos números diferentes entre sí: ");
             n1 = teclado.nextInt();
             n2 = teclado.nextInt();

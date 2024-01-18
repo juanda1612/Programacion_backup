@@ -40,7 +40,7 @@ public class Ejercicio01ConIterador {
         }
         System.out.println();
 
-        // LLegamos a la parte de eliminar los múltiplos de 3, y para eso lo más sencillo es utilizar un iterador:
+        // LLegamos Aplicacion.md la parte de eliminar los múltiplos de 3, y para eso lo más sencillo es utilizar un iterador:
         Iterator<Integer> iterator = coleccion.iterator();
         while (iterator.hasNext()) {
             // si el siguiente número es múltiplo de 3, que lo elimine

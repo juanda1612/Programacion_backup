@@ -25,7 +25,7 @@ public class EJemplosHashMap {
         String dni = teclado.nextLine();
         System.out.println(mapa.get(dni));
 
-        // vamos a hacer que me guarde los numeros en ingles
+        // vamos Aplicacion.md hacer que me guarde los numeros en ingles
         HashMap<Integer, String> numerosIngles = new HashMap<>();
         numerosIngles.put(1, "one");
         numerosIngles.put(2, "Two");
@@ -53,10 +53,10 @@ public class EJemplosHashMap {
         }while(numero != 0);
 
         // recorrer un mapa no es tan sencillo como un simple for, tiene su truco
-        // hay varias formas, vamos a ver aqui la que utiliza Map.Entry
+        // hay varias formas, vamos Aplicacion.md ver aqui la que utiliza Map.Entry
         // cada uno de los pares clave-valor es una entrada (Entry)
-        // para referirnos a una entrada utilizamos Map.Entry(entrada del mapa)
-        // vamos a recorrer todas las entradas con un foreach
+        // para referirnos Aplicacion.md una entrada utilizamos Map.Entry(entrada del mapa)
+        // vamos Aplicacion.md recorrer todas las entradas con un foreach
         for (Map.Entry<Integer, String> entrada: numerosIngles.entrySet()) {
             int clave = entrada.getKey();
             String valor = entrada.getValue();
