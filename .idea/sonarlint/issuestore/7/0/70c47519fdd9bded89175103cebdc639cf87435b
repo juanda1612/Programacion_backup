@@ -1,0 +1,15 @@
+
+V
+java:S1854	";Remove this useless assignment to local variable "alumno2".(è¶¶†øÿÿÿÿ
+V
+java:S1854";Remove this useless assignment to local variable "alumno1".(ÂÄÇ‚úÿÿÿÿ
+K
+java:S1854"5Remove this useless assignment to local variable "a".(èž‹×
+<
+java:S1481"&Remove this unused "a" local variable.(èž‹×
+G
+java:S1481",Remove this unused "alumno1" local variable.(ÂÄÇ‚úÿÿÿÿ
+G
+java:S1481	",Remove this unused "alumno2" local variable.(è¶¶†øÿÿÿÿ
+V	java:S125!"<This block of commented-out lines of code should be removed.(áŠÔéøÿÿÿÿ
+V	java:S125$"<This block of commented-out lines of code should be removed.(§¶Íáùÿÿÿÿ

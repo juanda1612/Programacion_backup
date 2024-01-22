@@ -1,0 +1,6 @@
+
+r	java:S127"XRefactor the code in order to not assign to this loop counter from within the loop body.(ÍÐÇ³øÿÿÿÿ
+P
+java:S1854"5Remove this useless assignment to local variable "e".(ë¤Ë¨üÿÿÿÿ
+K
+java:S1751"5Remove this "break" statement or make it conditional.(›ûä·

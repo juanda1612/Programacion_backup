@@ -1,0 +1,33 @@
+
+‚
+java:S1319S"gThe type of "numeros" should be an interface such as "List" rather than the implementation "ArrayList".(‰±úÿÿÿÿ
+‚
+java:S1319]"gThe type of "numeros" should be an interface such as "List" rather than the implementation "ArrayList".(­êâæşÿÿÿÿ
+‚
+java:S1319g"gThe type of "numeros" should be an interface such as "List" rather than the implementation "ArrayList".(¡ñ†óıÿÿÿÿ
+‚
+java:S1319k"gThe type of "numeros" should be an interface such as "List" rather than the implementation "ArrayList".(¦Š£±üÿÿÿÿ
+}
+java:S1319s"gThe type of "numeros" should be an interface such as "List" rather than the implementation "ArrayList".(ÔíñÉ
+‚
+java:S1319{"gThe type of "numeros" should be an interface such as "List" rather than the implementation "ArrayList".(ü¢ƒ¡ıÿÿÿÿ
+~
+java:S1319"gThe type of "numeros" should be an interface such as "List" rather than the implementation "ArrayList".(£÷ÏÊ
+‡
+java:S1319„"pThe return type of this method should be an interface such as "List" rather than the implementation "ArrayList".(àÙÃ
+~
+java:S1319„"gThe type of "numeros" should be an interface such as "List" rather than the implementation "ArrayList".(àÙÃ
+Œ
+java:S1319‘"pThe return type of this method should be an interface such as "List" rather than the implementation "ArrayList".(Óİ‰êúÿÿÿÿ
+{
+java:S1488’"_Immediately return this expression instead of assigning it to the temporary variable "numeros".(üò²•ıÿÿÿÿ
+V	java:S125"<This block of commented-out lines of code should be removed.(Ößƒ±üÿÿÿÿ
+A
+java:S1481"+Remove this unused "indice" local variable.(¡ÛòÕ
+A
+java:S1481"+Remove this unused "numero" local variable.(øÇ
+V	java:S125)"<This block of commented-out lines of code should be removed.(‹¾«Ïøÿÿÿÿ
+V	java:S125+"<This block of commented-out lines of code should be removed.(éØ»Úûÿÿÿÿ
+h	java:S100g"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¡ñ†óıÿÿÿÿ
+h	java:S100k"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¦Š£±üÿÿÿÿ
+d	java:S100„"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(àÙÃ
