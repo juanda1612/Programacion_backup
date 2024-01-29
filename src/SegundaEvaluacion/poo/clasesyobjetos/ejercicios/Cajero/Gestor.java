@@ -10,6 +10,11 @@ public class Gestor {
         this.telefono = telefono;
         this.importeMaximo = importeMaximo;
     }
+
+    public Gestor(String nombre, String telefono) {
+        this(nombre,telefono, 10000);
+    }
+
     public String getTelefono() {
         return telefono;
     }

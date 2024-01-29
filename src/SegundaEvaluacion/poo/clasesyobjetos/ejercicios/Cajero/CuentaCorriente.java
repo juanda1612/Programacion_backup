@@ -3,23 +3,39 @@ package SegundaEvaluacion.poo.clasesyobjetos.ejercicios.Cajero;
 import java.util.Scanner;
 
 public class CuentaCorriente {
-    private int DNI;
+    private String dni;
     private String nombreTitular;
     private double saldo;
     private Gestor gestor;
 
-    public CuentaCorriente(int DNI, String nombreTitular) {
-        this.DNI = DNI;
+    private String nombreBanco;
+
+    public CuentaCorriente(String dni, String nombreTitular) {
+        this.dni = dni;
         this.nombreTitular = nombreTitular;
         this.saldo = 0;
+        this.nombreBanco = "Santander";
     }
 
-    public int getDNI() {
-        return DNI;
+    public CuentaCorriente(String dni, double saldo){
+        this.dni = dni;
+        this.saldo = saldo;
+        this.nombreBanco = "Santander";
     }
 
-    public void setDNI(int DNI) {
-        this.DNI = DNI;
+    public CuentaCorriente(String dni, String nombreTitular, double saldo) {
+        this.dni = dni;
+        this.nombreTitular = nombreTitular;
+        this.saldo = saldo;
+        this.nombreBanco = "Santander";
+    }
+
+    public String getDNI() {
+        return dni;
+    }
+
+    public void setDNI(String dni) {
+        this.dni = dni;
     }
 
     public String getNombreTitular() {
@@ -46,10 +62,18 @@ public class CuentaCorriente {
         this.gestor = gestor;
     }
 
+    public String getNombreBanco() {
+        return nombreBanco;
+    }
+
+    public void setNombreBanco(String nombreBanco) {
+        this.nombreBanco = nombreBanco;
+    }
+
     @Override
     public String toString() {
         return "CuentaCorriente{" +
-                "DNI=" + DNI +
+                "DNI=" + dni +
                 ", nombreTitular='" + nombreTitular + '\'' +
                 ", saldo=" + saldo +
                 '}';
