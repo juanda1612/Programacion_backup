@@ -1,6 +1,7 @@
 
-{	java:S115"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(ÊéŸúıÿÿÿÿ8ŞĞ·ïÑ1
-{	java:S115"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(ÊéŸúıÿÿÿÿ8ŞĞ·ïÑ1
-{	java:S115"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(ÊéŸúıÿÿÿÿ8ŞĞ·ïÑ1
-G
-java:S1068"*Remove this unused "estado" private field.(­‰­8ãĞ·ïÑ1
+J
+java:S1172"-Remove this unused method parameter "estado".(’–ñ†8¾‚øÓ1
+\
+java:S1117<":Rename "estado" which hides the field declared at line 11.(¹©µ‘ÿÿÿÿÿ8Á‚øÓ1
+Y
+java:S1128"7Remove this unused import 'com.sun.source.tree.IfTree'.(¿àˆùÿÿÿÿ8Å‚øÓ1

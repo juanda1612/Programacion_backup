@@ -1,9 +1,18 @@
 package SegundaEvaluacion.poo.clasesyobjetos.ejercicios.Cajero;
 
 public class Gestor {
-    private String nombre;
+    public String nombre;
     private String telefono;
-    private double importeMaximo;
+    double importeMaximo; // default package, proteccion de paquete
+
+
+    public Gestor(String nombre, String telefono) {
+        this.nombre = nombre;
+        this.telefono = telefono;
+        this.importeMaximo = 10000;
+    }
+
+    // para asignar un importe maximo al crear un gestor tenemos que crear otro constructor que si lo incluya
 
     public Gestor(String nombre, String telefono, double importeMaximo) {
         this.nombre = nombre;
@@ -11,12 +20,16 @@ public class Gestor {
         this.importeMaximo = importeMaximo;
     }
 
-    public Gestor(String nombre, String telefono) {
-        this(nombre,telefono, 10000);
-    }
-
     public String getTelefono() {
         return telefono;
     }
 
+    @Override
+    public String toString() {
+        return "Gestor{" +
+                "nombre='" + nombre + '\'' +
+                ", telefono='" + telefono + '\'' +
+                ", importeMaximo=" + importeMaximo +
+                '}';
+    }
 }

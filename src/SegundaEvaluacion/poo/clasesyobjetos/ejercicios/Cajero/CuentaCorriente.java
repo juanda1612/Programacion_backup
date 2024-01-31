@@ -3,56 +3,34 @@ package SegundaEvaluacion.poo.clasesyobjetos.ejercicios.Cajero;
 import java.util.Scanner;
 
 public class CuentaCorriente {
-    private String dni;
-    private String nombreTitular;
+    String dni;
+    public String nombreTitular;
     private double saldo;
     private Gestor gestor;
-
     private String nombreBanco;
+
 
     public CuentaCorriente(String dni, String nombreTitular) {
         this.dni = dni;
         this.nombreTitular = nombreTitular;
         this.saldo = 0;
-        this.nombreBanco = "Santander";
+
     }
 
     public CuentaCorriente(String dni, double saldo){
         this.dni = dni;
         this.saldo = saldo;
-        this.nombreBanco = "Santander";
+
     }
 
     public CuentaCorriente(String dni, String nombreTitular, double saldo) {
         this.dni = dni;
         this.nombreTitular = nombreTitular;
         this.saldo = saldo;
-        this.nombreBanco = "Santander";
+
     }
 
-    public String getDNI() {
-        return dni;
-    }
-
-    public void setDNI(String dni) {
-        this.dni = dni;
-    }
-
-    public String getNombreTitular() {
-        return nombreTitular;
-    }
-
-    public void setNombreTitular(String nombreTitular) {
-        this.nombreTitular = nombreTitular;
-    }
-
-    public double getSaldo() {
-        return saldo;
-    }
-
-    public void setSaldo(int saldo) {
-        this.saldo = saldo;
-    }
+    // getters y setters
 
     public Gestor getGestor() {
         return gestor;
@@ -73,11 +51,14 @@ public class CuentaCorriente {
     @Override
     public String toString() {
         return "CuentaCorriente{" +
-                "DNI=" + dni +
+                "dni='" + dni + '\'' +
                 ", nombreTitular='" + nombreTitular + '\'' +
                 ", saldo=" + saldo +
+                ", gestor=" + gestor +
+                ", nombreBanco='" + nombreBanco + '\'' +
                 '}';
     }
+
     static Scanner teclado = new Scanner(System.in);
 
     public void sacarDinero() {
