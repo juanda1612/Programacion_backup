@@ -1,3 +1,3 @@
 
-g
-java:S1192"JDefine a constant instead of duplicating this literal "Santander" 3 times.(¿ë÷Ì8˜¦±Õ1
+{
+java:S1104"YMake nombreTitular a static final constant or non-public and provide accessors if needed.(–ÄÎƒüÿÿÿÿ8¦Œş…Ö1

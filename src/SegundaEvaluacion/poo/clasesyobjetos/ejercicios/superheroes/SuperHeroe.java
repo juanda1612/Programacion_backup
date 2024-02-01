@@ -7,6 +7,8 @@ public class SuperHeroe {
 
     public SuperHeroe(String nombre){
         this.nombre = nombre;
+        this.descripcion = "";
+        this.capa = false;
     }
 
     public String getNombre() {
@@ -35,10 +37,17 @@ public class SuperHeroe {
 
     @Override
     public String toString() {
+        // si capa = false que ponga con capa, y si es false que ponga sin capa
+        String infoCapa = "";
+        if (this.capa){
+            infoCapa = "Con capa";
+        }else{
+            infoCapa = "Sin capa";
+        }
         return "SuperHeroe{" +
                 "nombre='" + nombre + '\'' +
                 ", descripcion='" + descripcion + '\'' +
-                ", capa=" + capa +
+                ", capa=" + infoCapa +
                 '}';
     }
 }

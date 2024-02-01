@@ -8,6 +8,11 @@ public class Dimension {
     public Dimension(){
 
     }
+    public Dimension(double alto, double ancho, double profundidad) {
+        this.alto = alto;
+        this.ancho = ancho;
+        this.profundidad = profundidad;
+    }
 
     public double getAlto() {
         return alto;
@@ -39,12 +44,13 @@ public class Dimension {
                 "alto=" + alto +
                 ", ancho=" + ancho +
                 ", profundidad=" + profundidad +
+                ", volumen maximo=" + getVolumen(alto, ancho, profundidad) +
                 '}';
     }
 
     // Metodos
-    public double getVolumen(){
-
-        return 0;
+    public double getVolumen(double alto, double ancho, double profundidad){
+        double volumen = alto * ancho * profundidad;
+        return volumen;
     }
 }
