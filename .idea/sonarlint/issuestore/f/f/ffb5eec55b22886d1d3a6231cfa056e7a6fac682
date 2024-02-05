@@ -1,0 +1,41 @@
+
+W
+java:S1854":Remove this useless assignment to local variable "medico".(àô„À8ª¡â©Ö1
+X
+java:S1854";Remove this useless assignment to local variable "general".(Ôî‰˜8«¡â©Ö1
+`
+java:S1854">Remove this useless assignment to local variable "caballero3".(Ù¦ùüÿÿÿÿ8¦¸à©Ö1
+[
+java:S1854">Remove this useless assignment to local variable "caballero2".(˜›ì¡8¦¸à©Ö1
+`
+java:S1854">Remove this useless assignment to local variable "caballero1".(¾ß•ºşÿÿÿÿ8¦¸à©Ö1
+]
+java:S1854	";Remove this useless assignment to local variable "unidad5".(ÈÑ‹şÿÿÿÿ8¦¸à©Ö1
+X
+java:S1854";Remove this useless assignment to local variable "unidad4".(¨ÈÇè8¦¸à©Ö1
+]
+java:S1854";Remove this useless assignment to local variable "unidad3".(Ñ¸•Ìûÿÿÿÿ8¦¸à©Ö1
+W
+java:S1854";Remove this useless assignment to local variable "unidad2".(¶âôl8¦¸à©Ö1
+X
+java:S1854";Remove this useless assignment to local variable "unidad1".(÷¡¿8¦¸à©Ö1
+I
+java:S1481",Remove this unused "unidad1" local variable.(÷¡¿8¨¸à©Ö1
+H
+java:S1481",Remove this unused "unidad2" local variable.(¶âôl8©¸à©Ö1
+N
+java:S1481",Remove this unused "unidad3" local variable.(Ñ¸•Ìûÿÿÿÿ8©¸à©Ö1
+I
+java:S1481",Remove this unused "unidad4" local variable.(¨ÈÇè8©¸à©Ö1
+N
+java:S1481	",Remove this unused "unidad5" local variable.(ÈÑ‹şÿÿÿÿ8©¸à©Ö1
+Q
+java:S1481"/Remove this unused "caballero1" local variable.(¾ß•ºşÿÿÿÿ8ª¸à©Ö1
+L
+java:S1481"/Remove this unused "caballero2" local variable.(˜›ì¡8ª¸à©Ö1
+Q
+java:S1481"/Remove this unused "caballero3" local variable.(Ù¦ùüÿÿÿÿ8ª¸à©Ö1
+I
+java:S1481",Remove this unused "general" local variable.(Ôî‰˜8°¡â©Ö1
+H
+java:S1481"+Remove this unused "medico" local variable.(àô„À8°¡â©Ö1
